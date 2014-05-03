@@ -113,5 +113,5 @@ jsonData['hotWater'] = water['current']
 writeToFile(jsonData)
 
 # Logout
-url = 'https://www.hivehome.com/login'
+url = 'https://www.hivehome.com/logout'
 makeRequest(url,None)
