@@ -105,10 +105,10 @@ target = json.loads(body)
 jsonData['target'] = target['target']
 
 # Get hot water status
-url = 'https://www.hivehome.com/myhive/hotwater/schedule';
-body = makeRequest(url,None)
-water = json.loads(body)
-jsonData['hotWater'] = water['current']
+# url = 'https://www.hivehome.com/myhive/hotwater/schedule';
+# body = makeRequest(url,None)
+# water = json.loads(body)
+# jsonData['hotWater'] = water['current']
 
 writeToFile(jsonData)
 
